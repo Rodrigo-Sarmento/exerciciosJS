@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(146, 127, 255);
+    text-align: center;
+    color: white;
+}
+
+section{
+    background-color: white;
+    width: 400px;
+    text-align: left;
+    color: black;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: auto;
+    height: 230px;
+}
+
+
+footer {
+    color: white;
+    font-style: italic;
+}

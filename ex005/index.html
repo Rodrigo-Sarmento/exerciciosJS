@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+</head>
+<body>
+    <h1>iniciando estudos DOM</h1>
+    <p>aqui vai o resultado</p>
+    <div id="msg">clique em mim</div>
+
+    <script>
+        var corpo = window.document.getElementsByTagName('body')[0]
+        corpo.style.background = 'green'
+
+       /* var d = window.document.getElementById('msg')
+        d.innerText = 'estou aguardando...'
+        */
+
+        //usando queryselector
+
+        var d = window.document.querySelector('div#msg')
+        d.style.color = 'blue'
+    </script>
+</body>
+</html>

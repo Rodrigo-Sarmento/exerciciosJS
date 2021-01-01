@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculador de Média</h1>
+
+    <p>Nota1</p>
+    <input type="number" name="txtn1" id="txtn1">
+    <p>Nota2</p>
+    <input type="number" name="txtn2" id="txtn2">
+    <p></p>
+    <input type="button" value="Calcular" id="button" onclick="media()">
+    <div id="result">Resultado</div>
+    <div id="status"></div>
+
+    <script>
+        function media(){
+            var txn1 = window.document.getElementById('txtn1')
+            var txn2 = window.document.getElementById('txtn2')
+            var res = window.document.getElementById('result')
+            var n1 = Number(txn1.value)
+            var n2 = Number(txn2.value)
+            var status = window.document.getElementById('status')
+
+            var media = (n1+n2)/2
+
+            media >= 7 ? status.innerText = `Aprovado!`:status.innerText = `Reprovado!!`
+
+            res.innerText = `Sua média é ${media}`
+        }
+    </script>
+</body>
+</html>

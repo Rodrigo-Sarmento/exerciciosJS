@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrangeiro</title>
+</head>
+<body>
+    <h1>Verificador de estrangeiros</h1>
+    <p>Digite o Local que você nasceu:</p>
+    <input type="text" name="txt1" id="txt1">
+    <input type="button" value="Verificar" onclick="verificar()">
+
+    <div id="res">Resultado</div>
+
+    <script>
+        function verificar(){
+            var txt = window.document.getElementById('txt1')
+            var res = window.document.getElementById('res')
+            var txt1 = String(txt.value)
+            if(txt1 == 'Brasil'){
+                res.innerText = 'Não é estrangeiro!'
+            }else{
+                res.innerHTML = 'Estrangeiro!'
+             }
+        }
+    </script>
+</body>
+</html>

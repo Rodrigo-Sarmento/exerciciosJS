@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(0, 110, 255);
+    text-align: center;
+}
+
+header{
+    color: white;
+}
+
+div{
+    padding: 10px;
+    margin: auto;
+}
+
+img{
+    text-align: center;
+    margin: auto;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    text-align: justify;
+    
+    box-shadow: 5px 5px 10px black;
+    width: 500px;
+    height: 150px;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    color: white;
+}

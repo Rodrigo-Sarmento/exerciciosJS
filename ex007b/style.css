@@ -1,0 +1,11 @@
+body{
+    background-color: blueviolet;
+}
+
+input#button{
+    font-size: 40px;
+}
+
+div#result{
+    font-size: 70px;
+}

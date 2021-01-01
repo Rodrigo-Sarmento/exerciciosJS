@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Início: <input type="number" name="inicio" id="inicio"></p>
+            <p>Fim: <input type="number" name="fim" id="fim"></p>
+            <p>Passo: <input type="number" name="passo" id="passo"></p>
+
+            <input type="button" value="contar" onclick="contar()">
+        </div>
+        <div>
+            <p>contando:</p>
+            <p id="result"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Rodrigo Sarmento</p>
+    </footer>
+</body>
+</html>

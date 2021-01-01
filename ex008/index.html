@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran</title>
+</head>
+<body>
+    <h1>Sistema de multas</h1>
+
+    <input type="number" name="vel" id="vel">
+    <input type="button" value="Calcular" onclick="calc()">
+
+    <div id="res">Resultado</div>
+
+    <script>
+        function calc(){
+            var txvel = window.document.getElementById('vel')
+            var vel = Number(txvel.value)
+            var res = window.document.getElementById('res')
+
+            if(vel > 60){
+                res.innerText = 'Multado!'
+            }else{
+                res.innerText = 'Tudo certo. Use sempre cinto de segurança!'
+            }
+        }
+    </script>
+</body>
+</html>

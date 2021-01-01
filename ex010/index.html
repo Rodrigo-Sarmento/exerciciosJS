@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+
+    <section id="section">
+        <div>Ano de Nascimento: <input type="number" name="ano" id="ano"></div>
+        <div>Sexo: 
+            <input type="radio" name="radio" id="masculino" checked>Masculino 
+            <input type="radio" name="radio" id="feminino" ">Feminino</div>
+        </div>
+        <div><input type="button" value="Verificar" onclick="verificar()"></div>
+        <div id="result">
+            Preencha os dados acima para ver o resultado!        
+        </div>
+        <img src="" alt="" id="img">
+    </section>
+
+    <footer>
+        <p>&copy; Rodrigo Sarmento</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
