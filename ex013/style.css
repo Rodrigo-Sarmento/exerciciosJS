@@ -1,0 +1,26 @@
+body{
+    background-color: indigo;
+    color: lightcyan;
+    text-align: center;
+}
+
+header{
+
+}
+
+section{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px 5px 10px;
+    width: 500px;
+    margin: auto;
+    text-align: left;
+    height: 370px;
+    padding: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+
+footer{
+    font-style: italic;
+    font-size: 12px;
+}
